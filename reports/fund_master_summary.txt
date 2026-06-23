@@ -1,0 +1,102 @@
+FUND MASTER DATASET SUMMARY
+
+Project: Mutual Fund Analytics Platform
+Dataset: 01_fund_master.csv
+
+=========================================================
+DATASET OVERVIEW
+================
+
+Total Records: 40
+Total Columns: 15
+
+The fund master dataset contains scheme-level information including AMFI code, fund house, category, sub-category, expense ratio, fund manager, risk category, and investment requirements.
+
+=========================================================
+FUND HOUSES ANALYSIS
+====================
+
+Total Fund Houses: 10
+
+Fund Houses Present:
+
+1. SBI Mutual Fund
+2. HDFC Mutual Fund
+3. ICICI Prudential MF
+4. Nippon India MF
+5. Kotak Mahindra MF
+6. Axis Mutual Fund
+7. Aditya Birla Sun Life MF
+8. UTI Mutual Fund
+9. Mirae Asset MF
+10. DSP Mutual Fund
+
+Observation:
+The dataset contains schemes from leading Indian Asset Management Companies (AMCs), providing good diversity for comparative analysis.
+
+=========================================================
+CATEGORY ANALYSIS
+=================
+
+Primary Categories:
+
+1. Equity
+2. Debt
+
+Observation:
+The dataset covers both growth-oriented equity funds and relatively conservative debt funds.
+
+=========================================================
+SUB-CATEGORY ANALYSIS
+=====================
+
+Total Sub-Categories: 12
+
+Sub-Categories Present:
+
+* Large Cap
+* Small Cap
+* Mid Cap
+* Flexi Cap
+* Large & Mid Cap
+* Value
+* ELSS
+* Index
+* Index/ETF
+* Gilt
+* Liquid
+* Short Duration
+
+Observation:
+The dataset includes diversified investment styles ranging from passive index funds to actively managed equity and debt schemes.
+
+=========================================================
+RISK PROFILE ANALYSIS
+=====================
+
+Risk Categories Present:
+
+* Low
+* Moderate
+* Moderately High
+* High
+* Very High
+
+Observation:
+The dataset covers the complete risk spectrum, enabling risk-return analysis across different investment strategies.
+
+=========================================================
+DATA QUALITY OBSERVATIONS
+=========================
+
+1. No missing values detected.
+2. All AMFI codes are populated.
+3. Fund house names are standardized.
+4. Category labels appear consistent.
+5. Date fields are currently stored as string data types and require conversion during preprocessing.
+
+=========================================================
+CONCLUSION
+==========
+
+The fund master dataset is clean, well-structured, and suitable for exploratory analysis, scheme comparison, risk profiling, and dashboard development.
